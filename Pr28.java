@@ -25,7 +25,7 @@ System.out.println(weekdays);
 
 
 
-List<String> Months = new LinkedList<>();
+LinkedList<String> Months = new LinkedList<>();
 
 Months.add("Monday");
 Months.add("February");
@@ -38,5 +38,14 @@ Months.add("June");
 System.out.println(Months);
 
 
+
+
+
+
+
+
+
+
 }
 }
+                                                                                                                                                                                                                 
