@@ -1,18 +1,22 @@
-class A{ 
-int a;
-A(int a) {
-this.a=a;
-}       
+package pack1;
 
-void show()
+public class A{
+	
+	
+	int x = 25;
+	private int x_pri=25;
+	protected int x_pro=35;
+	public int x_pub=45;
+
+void  printall()
+
 {
-System.out.println(a);
-}
-public static void main(String[] args)
-{
-A r=new A(100);
-r.show();
+
+System.out.println("---Printing PAckage1 Class A");
+System.out.println("x:"+x);
+System.out.println("private x:"+x_pri);
+System.out.println("protected x:"+x_pro);
+System.out.println("public x:"+x_pub);
 
 }
 }
-                                                        
